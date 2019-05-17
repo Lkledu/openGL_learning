@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\eduardo\desktop\git\openglnuget\openglnuget\main.cpp(25): warning C4715: 'initGLFW': not all control paths return a value
+c:\users\eduardo\desktop\git\openglnuget\openglnuget\main.cpp(37): warning C4715: 'initGLEW': not all control paths return a value
+c:\users\eduardo\desktop\git\openglnuget\openglnuget\main.cpp(74): warning C4715: 'setContextWindow': not all control paths return a value
+  OpenGLNuGet.vcxproj -> C:\Users\Eduardo\Desktop\git\OpenGLNuGet\Debug\OpenGLNuGet.exe
