@@ -13,13 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{3041fa90-1fc2-425a-946f-453aeac36cb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LoadShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphGen.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="DataType.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="FragmentShader.fragmentshader">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="VertexShader.vertexshader">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoadShader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphGen.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

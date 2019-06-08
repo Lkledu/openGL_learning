@@ -119,10 +119,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GraphGen.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="LoadShader.cpp" />
+    <ClCompile Include="DataType.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FragmentShader.fragmentshader" />
     <None Include="packages.config" />
+    <None Include="VertexShader.vertexshader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphGen.h" />
+    <ClInclude Include="LoadShader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
